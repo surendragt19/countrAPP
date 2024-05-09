@@ -10,3 +10,16 @@ export const decNum=()=>{
         type:'DEC'
     }
 }
+
+export const mulNum=(number)=>{
+    return {
+        type:'MUL',
+        payloadMultiply:number
+    }
+}
+
+export const devNum=()=>{
+    return {
+        type:'DEV'
+    }
+}
